@@ -1,5 +1,5 @@
 ---
-framework_version: 1.2.6
+framework_version: 1.2.7
 ---
 
 # Job Evaluation Framework
@@ -60,9 +60,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** ReactJS, Next.js, Angular, TypeScript, JavaScript, Redux Toolkit, RTK Query, Node.js, Express, micro-frontend architecture, frontend testing (Jest, Jasmine, Karma, React Testing Library, TDD), Webpack/Vite
+**Moderate match areas:** Java, Spring Boot (secondary backend), Python, C++, cloud/CDN delivery (S3, CloudFront), GraphQL, AI-assisted/agentic development (Claude Code, GitHub Copilot, SpecKit)
+**Weak match areas:** Deep backend architecture/infrastructure, mobile-native development, data engineering/ML pipelines
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for? Match on the function and nature of the work performed, not the literal job title - a "Data Consultant" and a "Data Scientist" role can be functionally identical.
@@ -74,9 +74,9 @@ Does work history align with what they're looking for? Match on the function and
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** Frontend/full-stack engineering in enterprise SaaS and energy-sector production platforms (React, TypeScript, Node.js), micro-frontend architecture, AI-assisted/spec-driven development workflows
+**Moderate:** Full-stack roles requiring deeper backend ownership (Java/Spring Boot, API design), consulting/client-facing engineering
+**Entry-level:** Pure backend architecture or infrastructure-heavy roles, dedicated ML/AI engineering roles beyond agentic tooling
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -107,18 +107,18 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Transition from frontend-focused engineering into full-stack ownership (frontend + backend + APIs)
+- Grow into AI-assisted / agentic software engineering, building on Claude Code, GitHub Copilot, and SpecKit experience
+- Take on more architectural / technical leadership responsibility over time
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
+- Tasks that energize: Full-stack feature ownership, AI-assisted/agentic development workflows, solving challenging technical problems
 - Tasks that drain: [YOUR_DRAINING_TASKS]
 - Non-task factors: leadership style, department culture, company values, degree of autonomy
 
 **Life situation alignment:** Consider personal constraints:
 - **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
+- **Flexibility**: Open to working in Pune, Hyderabad, or Bangalore, India
 - **Professional development**: [YOUR_GROWTH_PRIORITIES]
 
 ### 6. Salary Benchmark (Optional)

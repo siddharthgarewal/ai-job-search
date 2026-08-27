@@ -13,68 +13,80 @@ The `site:` query templates in this file are the **WebSearch fallback** — for 
 ## Search Sites
 
 Primary (your market's job boards - scaffold one with `/add-portal`):
-- **[YOUR_JOB_BOARD]** - your market's largest general job board
-- **linkedin.com/jobs** - LinkedIn job listings (filter: [YOUR_COUNTRY] / [YOUR_CITY]); also covered by `linkedin-search` CLI
-- **[YOUR_INDUSTRY_JOB_BOARD]** - a niche/industry board for your field (optional)
-- **[YOUR_ADDITIONAL_JOB_BOARD]** - another major board for your market (optional)
+- **Naukri.com** - India's largest general job board (not yet scaffolded - run `/add-portal` to add a CLI skill for it)
+- **linkedin.com/jobs** - LinkedIn job listings (filter: India / Pune, Hyderabad, Bangalore); also covered by `linkedin-search` CLI
+- **Instahyre / Cutshort** - niche tech-focused Indian job boards (optional)
 
 Secondary (company career pages via Google):
-- Direct Google searches with `site:` filters for known target companies
+- Direct Google searches with `site:` filters for known target companies (Amazon, Atlassian, Salesforce)
 
 ## Query Categories
 
 Queries are grouped by priority. Write **each category in every language from your Languages table** (see Language scope above). Combine each query with your location terms (e.g. your city, region, or metro area) where the site supports it.
 
+**Note on language:** although Hindi is a declared working language, the Indian tech job market posts virtually all software engineering roles in English, so queries below are in English only. Revisit this if you start targeting roles that explicitly work in Hindi.
+
 **Organize by function, not job title.** The same underlying work carries different titles across companies and markets (a "Data Scientist" role at one employer may be posted as "Insights Analyst" or "Data Consultant" at another). Name each priority category after the function it covers, and list several plausible job titles as query variants within that category rather than betting an entire priority tier on one exact title string.
 
-### Priority 1: [YOUR_PRIMARY_ROLE_TYPE]
+### Priority 1: Full-Stack / Senior Software Engineering
 
-These match your strongest and most desired career direction.
-
-```
-site:[YOUR_JOB_BOARD] "[YOUR_PRIMARY_JOB_TITLE_1]" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_PRIMARY_JOB_TITLE_2]" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_KEY_SKILL]" [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_PRIMARY_JOB_TITLE_1]" [YOUR_COUNTRY]
-```
-
-### Priority 2: [YOUR_DOMAIN_EXPERTISE]
-
-These match your domain expertise.
+These match your strongest and most desired career direction (moving from frontend-focused toward full-stack).
 
 ```
-site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] OR [YOUR_REGION]
-site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_2] [YOUR_COUNTRY]
-site:linkedin.com/jobs [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] [YOUR_COUNTRY]
+site:naukri.com "Senior Software Engineer" Pune OR Hyderabad OR Bangalore
+site:naukri.com "Full-Stack Engineer" React Pune OR Hyderabad OR Bangalore
+site:naukri.com "Frontend Developer" React TypeScript Pune OR Hyderabad OR Bangalore
+site:linkedin.com/jobs "Senior Software Engineer" React TypeScript India
+site:linkedin.com/jobs "Full-Stack Engineer" India
 ```
 
-### Priority 3: [YOUR_ADJACENT_ROLE_TYPE]
+### Priority 2: AI-Assisted / Agentic Software Engineering
 
-Adjacent roles you could pivot into.
+These match your growth direction into AI-assisted and agentic development, backed by your Claude/Microsoft agentic-AI certifications.
 
 ```
-site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_1]" [YOUR_KEY_SKILL] [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_2]" [YOUR_KEY_SKILL] [YOUR_CITY]
+site:naukri.com "AI-Assisted Software Engineer" India
+site:naukri.com "GenAI Engineer" Pune OR Hyderabad OR Bangalore
+site:naukri.com "Software Engineer" "Agentic AI" India
+site:linkedin.com/jobs "GenAI" OR "Agentic AI" Software Engineer India
+```
+
+### Priority 3: Adjacent Roles (Tech Lead / Solutions Engineering)
+
+Adjacent roles you could pivot into, given your senior-level scope and client-facing project delivery experience.
+
+```
+site:naukri.com "Technical Lead" React Node.js Pune OR Hyderabad OR Bangalore
+site:naukri.com "Solutions Engineer" React OR TypeScript India
+site:linkedin.com/jobs "Technical Lead" React TypeScript India
 ```
 
 ### Priority 4: Broader Technical / Consulting
 
-Wider net for general technical roles.
+Wider net for general technical roles, including your existing energy-sector domain experience.
 
 ```
-site:[YOUR_JOB_BOARD] [YOUR_KEY_SKILL] developer [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_KEY_SKILL] developer" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "technical consultant" [YOUR_DOMAIN] [YOUR_CITY]
+site:naukri.com React developer Pune OR Hyderabad OR Bangalore
+site:linkedin.com/jobs "React developer" OR "Node.js developer" India
+site:naukri.com "technical consultant" energy OR SaaS Pune OR Hyderabad OR Bangalore
+```
+
+### Target Companies to Monitor
+
+```
+site:amazon.jobs "Software Engineer" India
+site:atlassian.com/company/careers "Software Engineer" India
+site:salesforce.com/company/careers "Software Engineer" India
 ```
 
 ## Location Filter
 
 When evaluating results, verify the job location is within reasonable commute distance from your home. Define acceptable areas:
-- [YOUR_CITY] and surrounding areas
-- [ACCEPTABLE_AREA_1]
-- [ACCEPTABLE_AREA_2]
-- [BORDERLINE_AREA] (borderline - ~X min by transit)
-- [TOO_FAR_AREA] (too far)
+- Pune and surrounding areas (home base)
+- Hyderabad (acceptable - open to working here)
+- Bangalore (acceptable - open to working here)
+- Other major Indian tech hubs (borderline - discuss with user before proceeding)
+- Outside India, non-remote (too far)
 
 ## Language Filter
 

@@ -1,5 +1,5 @@
 ---
-framework_version: 1.4.3
+framework_version: 1.4.4
 ---
 
 # CV Templates and Tailoring Guide
@@ -130,11 +130,11 @@ When the role sits outside your home domain, **lead with the domain-transfer arg
 **Create 2-3 profile statement templates for your main role types:**
 
 <!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+**For Full-Stack Engineer roles:**
+> Senior Software Engineer with 5+ years building scalable, high-performance web applications in React, Next.js, TypeScript, and Node.js. Experienced translating Figma designs into modular, reusable components and micro-frontend architectures, backed by 85%+ test coverage (Jest, React Testing Library). Comfortable extending ownership across the stack, from state management (Redux Toolkit, RTK Query) through API integration and cloud-delivered assets (S3, CloudFront), within Agile/Scrum teams.
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For AI-Assisted / Agentic Software Engineer roles:**
+> Senior Software Engineer combining 5+ years of frontend/full-stack delivery with hands-on experience embedding AI-assisted, spec-driven workflows into production engineering. Integrated SpecKit as a human-in-the-loop validation gate ahead of code generation, cutting regression bugs by 45%, and hold certifications in agentic architecture (Anthropic Claude Certified Architect - Foundations; Microsoft Designing Agent Architecture and SDLC Integration). Brings a clean-code, TDD-first discipline to fast-moving AI-augmented development.
 
 Statements labeled *[Used for: <company>_<role>]* were extracted from archived application drafts by `/setup` Path A. They are **phrasing references, never fact sources**: when drafting from one, every factual claim still comes from `01-candidate-profile.md` - a past tailored draft does not vouch for its own accuracy.
 

@@ -1,10 +1,10 @@
-# Job Application Assistant for [YOUR_NAME]
+# Job Application Assistant for Siddharth Garewal
 
 <!-- SETUP: This file is populated by running /setup -->
 <!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Siddharth Garewal, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -16,76 +16,86 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 <!-- This section is auto-populated by /setup. You can also fill it in manually. -->
 
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
+- **Name:** Siddharth Garewal
+- **Location:** Pune, India (open to working in Pune, Hyderabad, and Bangalore)
 - **Languages:**
   | Language | Level |
   |----------|-------|
-  | [LANGUAGE] | [LEVEL] |
+  | English | Professional Working |
+  | Hindi | Native or Bilingual |
   <!-- Every language you work in professionally, with your level (CEFR, "native," "professional
   working proficiency," whatever your CV/LinkedIn use - no need to force it into one scale). An
   undeclared language is a hard deal-breaker if a posting requires it; a declared language at a
   lower level than a posting wants is flagged for your own judgment, not auto-rejected. See
   04-job-evaluation.md's Language Gate. -->
-- **CV language:** [YOUR_CV_LANGUAGE] <!-- English unless your market expects otherwise; /setup asks -->
+- **CV language:** English
 
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Status:** Employed - Senior Software Engineer at EPAM Systems
+- **LinkedIn headline:** "Senior Software Engineer | ReactJS | NodeJS | TypeScript | Clean Code | Scalable Web & Mobile Apps | Agile"
 
 ### Education
 <!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
+- **Bachelor of Technology (B.Tech) in Computer Science** (2017-2021) - Chameli Devi Group of Institutions
   - Topics: [KEY_TOPICS]
 
 ### Professional Experience
 <!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Senior Software Engineer** (Jun 2025 - Present) - **EPAM Systems** (Hyderabad, Telangana, India)
+  - Key Engineer on Project Tycho (Leucipa), Baker Hughes USA's cloud-first production-optimization SaaS platform, delivered across six Scrum teams
+  - Implemented global state management (Redux Toolkit) and cache-aware server-state (RTK Query) for real-time multi-well sensor monitoring
+  - Achieved a 45% reduction in regression bugs by integrating SpecKit as a human-in-the-loop AI validation gate before code generation
+- **Software Engineer** (Jul 2022 - Jun 2025) - **EPAM Systems** (Hyderabad, Telangana, India)
+  - Frontend Developer for Proactive Technology Systems, LLC ("LoopIT"): improved Time-to-Interactive via CDN-backed static delivery (S3 + CloudFront) and React lazy-loading
+  - Collaborated with Business Analysts, backend, and QA teams to align on requirements and resolve issues
+- **Junior Software Engineer** (Jun 2021 - Aug 2022) - **EPAM Systems** (Hyderabad, Telangana, India)
+  - Built React/TypeScript business logic and unit tests (Jasmine) for EPAM's internal Employee Self Service (ESS) portal
+  - Delivered lazy-loaded feature modules across role-specific UI shells within an Agile team
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** ReactJS, Next.js, Angular, TypeScript, JavaScript, Redux Toolkit, RTK Query, Node.js, Express
+- **Secondary:** Java, Spring Boot, Python, C++, HTML, CSS, SASS/SCSS
+- **Domain:** Energy & Resources (Oil & Gas production optimization), Enterprise HR systems, AI-assisted/agentic software engineering
+- **Software:** Git, GitHub, GitLab, Webpack, Vite, Jest, Jasmine, Karma, React Testing Library, Azure Boards, JIRA, Figma, GitHub Copilot, Claude Code
 
 ### Certifications
 <!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+- **Anthropic: Claude Certified Architect - Foundations** - completed 2026
+- **Microsoft: Designing Agent Architecture and SDLC Integration** - completed 2026
+- **LinkedIn Learning: SQL for Data Science**
+- **LinkedIn Learning: Learning Angular**
+- **LinkedIn Learning: Express Essential Training**
+- **LinkedIn Learning: React.js Essential Training**
 
 ### Publications
 <!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+- None
 
 ### Awards
 <!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+- None
 
 ### Behavioral Profile
 <!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
+- **Ownership and continuous improvement** - Takes ownership of work, follows best practices such as TDD and clean architecture *[Inferred from LinkedIn About - review before relying on this]*
+- **Cross-functional collaboration** - Comfortable working across QA, UX, DevOps, and business stakeholders within Agile/Scrum workflows *[Inferred from LinkedIn About - review before relying on this]*
 - **Strengths:** [YOUR_STRENGTHS]
 - **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+- **Thrives in:** Solving challenging technical problems and continuous learning *[Inferred from LinkedIn About - review before relying on this]*
 
 ### What Excites You
 <!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Moving toward full-stack ownership (frontend + backend)
+- AI-assisted / agentic software engineering
 
 ### Target Sectors
 <!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- Big Tech / Enterprise Software: Amazon, Atlassian, Salesforce
+- Energy & Resources (existing domain experience): companies similar to Baker Hughes
 
 ### Deal-breakers
 <!-- Hard constraints on job search. Language requirements are handled separately and
 automatically from your Languages table above - don't duplicate them here. -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- None specified yet
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)

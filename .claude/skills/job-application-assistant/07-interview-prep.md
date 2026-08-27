@@ -1,5 +1,5 @@
 ---
-framework_version: 1.0.0
+framework_version: 1.0.1
 ---
 
 # Interview Preparation Guide
@@ -16,26 +16,33 @@ Keep answers to 1-2 minutes. Be specific. End with what you learned or would do 
 
 <!-- These are populated by /setup from your actual experience. Below are templates showing the format. -->
 
-### 1. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT - what was happening, what was the problem]
-**T:** [YOUR RESPONSIBILITY - what you specifically needed to do]
-**A:** [WHAT YOU DID - specific actions, tools, methods]
-**R:** [OUTCOME - measurable results, adoption, impact]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 1. SpecKit AI Validation Gates (AI-assisted engineering / process improvement)
+**S:** On Project Tycho (Baker Hughes' cloud-first production-optimization platform), the team was seeing regression bugs slip through when AI-assisted code generation moved straight from spec to implementation without a review checkpoint.
+**T:** As Key Engineer, ensure architectural alignment was verified before code got generated, without slowing the team down.
+**A:** Integrated SpecKit's commands as human-in-the-loop validation gates, enforcing phase-level review before any code generation so architectural misalignments were caught at the specification stage rather than after implementation.
+**R:** Achieved a 45% reduction in regression bugs.
+**Use for:** "Tell me about a process improvement you drove", "How do you use AI tools responsibly in engineering?"
 
-### 2. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 2. Real-Time Multi-Well State Management (Frontend architecture / scale)
+**S:** Baker Hughes' Project Tycho dashboard needed to track well-selection state, real-time sensor feeds, alert queues, and user preferences simultaneously across multi-well monitoring views.
+**T:** Build a state layer that stayed consistent and predictable as data volume and view complexity grew.
+**A:** Implemented global application state management using Redux Toolkit (RTK), and layered RTK Query on top for cache-aware server-state management of ESP sensor API calls, eliminating redundant network requests through automatic caching and invalidation.
+**R:** Delivered a consistent, predictable UI experience across multi-well views while improving dashboard load performance and reducing backend load during high-frequency sensor polling.
+**Use for:** "Describe a complex frontend architecture problem you solved", "How do you manage state in large React apps?"
 
-### 3. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 3. CDN-Backed Performance Optimization (Performance / user experience)
+**S:** Business microsite pages for Proactive Technology Systems' "LoopIT" project were slow to become interactive for mobile users.
+**T:** Improve Time-to-Interactive (TTI) for health-conscious local consumers browsing on mobile.
+**A:** Delivered static assets via a CDN-backed pipeline (S3 + CloudFront) and added React component lazy-loading to defer non-critical rendering work.
+**R:** Delivered fast, mobile-optimized discovery pages with measurably improved TTI.
+**Use for:** "Tell me about a performance optimization you led", "How do you approach frontend performance?"
+
+### 4. Micro-Frontend Architecture at Scale (Technical leadership / modularity)
+**S:** Project Tycho needed to support multiple independent feature teams shipping to the same dashboard without blocking each other.
+**T:** Introduce an architecture that supported modular, independently deployable frontend pieces.
+**A:** Implemented advanced Webpack configurations for bundle splitting and built a micro-frontend architecture using Webpack 5 Module Federation, alongside reusable ReactJS components backed by 85% test coverage (Jest, React Testing Library).
+**R:** Improved load times and modularity, letting teams ship independently with confidence in code quality.
+**Use for:** "How do you design for scale/modularity?", "Tell me about a time you improved a team's ability to ship independently"
 
 <!-- Add more STAR examples as needed. Aim for 4-6 covering different competencies. -->
 

@@ -1,5 +1,5 @@
 ---
-framework_version: 1.0.0
+framework_version: 1.0.1
 ---
 
 # Behavioral Profile
@@ -23,11 +23,14 @@ framework_version: 1.0.0
 - **[BEHAVIOR_1]:** [DESCRIPTION]
 - **[BEHAVIOR_2]:** [DESCRIPTION]
 - **[BEHAVIOR_3]:** [DESCRIPTION]
+- **Ownership and continuous improvement:** Takes ownership of work, follows best practices such as TDD and clean architecture, and pursues continuous improvement *[Inferred from LinkedIn About - review before relying on this]*
+- **Cross-functional collaboration:** Comfortable working across QA, UX, DevOps, and business stakeholders within Agile/Scrum workflows *[Inferred from LinkedIn About - review before relying on this]*
 
 ## How You Work Best
 - [ENVIRONMENT_PREFERENCE_1]
 - [ENVIRONMENT_PREFERENCE_2]
 - [ENVIRONMENT_PREFERENCE_3]
+- Energized by solving challenging technical problems and continuous learning *[Inferred from LinkedIn About - review before relying on this]*
 
 ## Growth Areas (frame positively in applications)
 - **[AREA_1]:** [HOW_TO_FRAME_IT_POSITIVELY]
